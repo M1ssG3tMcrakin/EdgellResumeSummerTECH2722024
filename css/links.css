@@ -1,0 +1,59 @@
+/* CSS DOCUMENT */
+
+		/* box-sizing */
+			html {
+			box-sizing:border-box;	
+			}
+			*, *:before, *:after {
+				box-sizing: inherit;
+			}
+			/* STRUCTURE */
+			html {background-color:#ccc;}
+			#wrap {width:100%; max-width: 800px; margin:0 auto; padding:bottom:40px; background-color:white;}
+			header {padding: 20 40px;}
+			section {padding: 0 40px;}
+			header {background-color:lightblue;}
+			/* TYPOGRAPHY */
+			h1{  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; color:purple;} h2 {padding-top:20px;  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; color:purple;}
+			li {margin-bottom:8px;}
+			header h1 {margin-bottom:0;  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+			header h2 {margin-top:0; padding-top:0;font-style:italic;  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; font-color:black;}
+			#contact ul {list-style-type:none; padding:0;}
+			#contact li {display:inline;}
+			#contact span {padding: 0 10px;}
+			
+			#software ul, #hobbies ul {display:flex; list-style-type:none; padding:0;}
+			#software li, #hobbies li {margin:0 10 10px; padding: 10px; background-color: lightblue; border-radius:6px;}
+			
+			#experience h3 {margin-bottom:4px;}
+			#experience h4 {margin-top:0; margin-bottom:3px;}
+			#experience h4 + p {margin-top:0;}
+			
+			
+			#education h3 {margin-bottom:4px;}
+			#education h4 {margin-top:0
+				
+			#affiliations ul {list-style-type:none; padding:0;}
+			#hobbies {margin-bottom: 40px;}
+				
+			// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-de-grund-<uniquifier> {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}	
